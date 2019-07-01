@@ -17,7 +17,7 @@ function draw() {
   }
 }
 
-function selectionSort(array) {
+function selectionSort() {
   for (let i = 0; i < array.length; i++) {
     let antirecord = 2000000000;
     let selected = 0;
