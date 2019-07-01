@@ -1,5 +1,5 @@
-var array = []
-var len = array.length
+var array = [];
+var len = array.length;
 
 function setup() {
   createCanvas(800, 800);
@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   for (let i = 0; i < len; i++) {
     stroke(255);
-    line(i, 800, i, array[i]
+    line(i, 800, i, array[i]);
   }
 }
 
