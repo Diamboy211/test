@@ -1,5 +1,7 @@
 var array = [];
 var len = 800;
+let antirecord = 2000000000;
+let selected = 0;
 
 function setup() {
   createCanvas(800, 800);
@@ -14,13 +16,7 @@ function draw() {
   for (let i = 0; i < len; i++) {
     stroke(255);
     line(i, 800, i, array[i]);
-  }
-}
 
-function selectionSort() {
-  for (let i = 0; i < array.length; i++) {
-    let antirecord = 2000000000;
-    let selected = 0;
     for (let j = i; j < array.length; i++) {
       if (array[j] < antirecord) {
         antirecord = array[j];
@@ -32,3 +28,5 @@ function selectionSort() {
     }
   }
 }
+
+
