@@ -1,10 +1,10 @@
 var array = [];
-var len = array.length;
+var len = 800;
 
 function setup() {
   createCanvas(800, 800);
   background(0);
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < 800; i++) {
     let n = floor(random(0,800));
     array.push(n);
   }
