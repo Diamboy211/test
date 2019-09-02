@@ -29,5 +29,6 @@ function selectionSort() {
     let temp = array[i];
     array[i] = array[selected];
     array[selected] = temp
+    }
   }
 }
